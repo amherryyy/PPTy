@@ -1,0 +1,14 @@
+﻿node_modules/
+_archive/
+ppt inspirations/
+framework/ppt ins/
+**/.codex-finalizer/
+**/.codex-finalizer-*/
+**/*.inspect.ndjson
+Duno Final PDF.pdf
+Duno section 1-6.docx
+**/creator-portrait.png
+framework/reference-sampler-review-*/
+framework/pax-silica-deck/rendered/
+output/duno-final-pdf-presentation/output/pptx/*.pptx
+!output/duno-final-pdf-presentation/output/pptx/Duno-Final-Presentation-v4.pptx

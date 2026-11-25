@@ -1,0 +1,90 @@
+[
+  {
+    "number": 1,
+    "file": "01-editorial.html",
+    "png": "png/01-editorial.png",
+    "title": "Editorial",
+    "direction": "editorial",
+    "pattern": "original CSS theme 10"
+  },
+  {
+    "number": 2,
+    "file": "02-pop-comic.html",
+    "png": "png/02-pop-comic.png",
+    "title": "Pop comic",
+    "direction": "pop-comic",
+    "pattern": "original CSS theme 1"
+  },
+  {
+    "number": 3,
+    "file": "03-anime-manga.html",
+    "png": "png/03-anime-manga.png",
+    "title": "Anime and manga panels",
+    "direction": "anime-manga",
+    "pattern": "original CSS theme 5"
+  },
+  {
+    "number": 4,
+    "file": "04-playful-classroom.html",
+    "png": "png/04-playful-classroom.png",
+    "title": "Playful classroom",
+    "direction": "playful-classroom",
+    "pattern": "original CSS theme 7"
+  },
+  {
+    "number": 5,
+    "file": "05-modern-tech.html",
+    "png": "png/05-modern-tech.png",
+    "title": "Modern tech",
+    "direction": "modern-tech",
+    "pattern": "original CSS theme 8"
+  },
+  {
+    "number": 6,
+    "file": "06-academic-science.html",
+    "png": "png/06-academic-science.png",
+    "title": "Academic and scientific",
+    "direction": "academic-science",
+    "pattern": "original CSS theme 3"
+  },
+  {
+    "number": 7,
+    "file": "07-retro-pixel.html",
+    "png": "png/07-retro-pixel.png",
+    "title": "Retro pixel",
+    "direction": "retro-pixel",
+    "pattern": "original CSS theme 4"
+  },
+  {
+    "number": 8,
+    "file": "08-soft-digital.html",
+    "png": "png/08-soft-digital.png",
+    "title": "Soft digital",
+    "direction": "soft-digital",
+    "pattern": "original CSS theme 13"
+  },
+  {
+    "number": 9,
+    "file": "09-bold-poster.html",
+    "png": "png/09-bold-poster.png",
+    "title": "Bold poster",
+    "direction": "bold-poster",
+    "pattern": "original CSS theme 9"
+  },
+  {
+    "number": 10,
+    "file": "10-craft-scrapbook.html",
+    "png": "png/10-craft-scrapbook.png",
+    "title": "Craft and scrapbook",
+    "direction": "craft-scrapbook",
+    "pattern": "original CSS theme 6"
+  },
+  {
+    "number": 11,
+    "file": "11-three-dimensional.html",
+    "png": "png/11-three-dimensional.png",
+    "title": "3D-inspired",
+    "direction": "three-dimensional",
+    "pattern": "original CSS theme 14"
+  }
+]

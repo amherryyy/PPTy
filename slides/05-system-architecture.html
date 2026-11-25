@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=1920, initial-scale=1"><title>Duno | System Architecture</title><link rel="stylesheet" href="styles.css"></head>
+<body><main class="slide info-slide" aria-label="Slide 05, System Architecture">
+  <header class="slide-header"><div class="slide-number">05</div><h1 class="slide-heading">System Architecture</h1></header>
+  <p class="slide-deck">Server-rendered PHP application with small, deterministic workflow services</p>
+  <section class="info-content">
+    <div class="architecture-flow" aria-label="Conceptual architecture diagram">
+      <article class="panel panel-lavender arch-node"><div class="number-mark">01</div><h2>Browser</h2><p>Responsive HTML, CSS, forms, and small JavaScript interactions.</p><span class="arch-arrow" aria-hidden="true">›</span></article>
+      <article class="panel arch-node"><div class="number-mark">02</div><h2>CodeIgniter 4</h2><p>Explicit routes, session, CSRF, role filters, controllers, and PHP views.</p><span class="arch-arrow" aria-hidden="true">›</span></article>
+      <article class="panel panel-mint arch-node"><div class="number-mark" style="background:#D1EEDF;color:#276D4E">03</div><h2>Services and models</h2><p>Priority, planning, analytics, progression, and owner-scoped data access.</p><span class="arch-arrow" aria-hidden="true">›</span></article>
+      <article class="panel panel-gold arch-node"><div class="number-mark" style="background:#FFE9B8;color:#765817">04</div><h2>MySQL / MariaDB</h2><p>Authentication and application records with relational constraints.</p></article>
+    </div>
+    <div class="architecture-foot"><div class="panel"><strong>Outbound email:</strong> SMTP sends registration verification messages.</div><div class="panel"><strong>Public offline shell:</strong> the PWA allowlist covers public static assets only. Private pages and writes remain online-only by design.</div></div>
+  </section>
+  <div class="footer-note">Conceptual architecture diagram based on repository routes, services, models, and deployment notes. It is not a performance measurement.</div>
+</main></body></html>

@@ -1,0 +1,20 @@
+{
+  "title":"Pax Silica: Yes, No, or Yes with Conditions?",
+  "sources":[
+    {"id":"official","location":"Pax Silica, initiative overview, accessed 24 Nov 2026","priority":1},
+    {"id":"mofa","location":"Japan Ministry of Foreign Affairs, 18 Nov 2026","priority":1},
+    {"id":"iseas","location":"ISEAS Perspective 2026/73, 8 Oct 2026","priority":1},
+    {"id":"ap","location":"Associated Press, US-China AI blocs report, Oct 2026","priority":1}
+  ],
+  "outline":[{"id":"intro","description":"Frame the Philippine policy choice"}],
+  "slides":[
+    {"id":"intro","title":"Pax Silica: Yes, No, or Conditions?","purpose":"opening-context","sources":["official","mofa"],"covers":["intro"],"blocks":[{"text":"The Philippines joined a US-led AI supply-chain initiative. The real question is what participation must deliver—and what it must protect."}]},
+    {"id":"findings","title":"What Pax Silica connects","purpose":"structured-explanation","sources":["official","mofa"],"covers":["intro"],"blocks":[{"text":"Critical minerals and materials feed semiconductor manufacturing."},{"text":"Chips, energy, and advanced computing infrastructure support AI."}]},
+    {"id":"investment","title":"The opportunity: move up the chain","purpose":"structured-explanation","sources":["iseas"],"covers":["intro"],"blocks":[{"text":"Attract investment into higher-value manufacturing."},{"text":"Build local processing, technical skills, and supplier capacity."},{"text":"Turn Philippine mineral and geographic advantages into lasting capability."}]},
+    {"id":"risks","title":"The cost of a blank cheque","purpose":"structured-explanation","sources":["iseas"],"covers":["intro"],"blocks":[{"text":"Water and power demand could compete with local needs."}]},
+    {"id":"choice","title":"Neither slogan answers the hard question","purpose":"key-statement","sources":["iseas","ap"],"covers":["intro"],"blocks":[{"text":"Rejecting the initiative does not build a local chip industry. Joining does not guarantee jobs, technology transfer, or community protections."}]},
+    {"id":"conclusion","title":"A conditional yes","purpose":"synthesis-conclusion","sources":["iseas"],"covers":["intro"],"blocks":[{"text":"Continue only with public terms, independent environmental review, and meaningful local and Indigenous consultation."},{"text":"Require measurable local hiring, training, supplier participation, Philippine regulatory authority, and public progress reporting."}]},
+    {"id":"debate","title":"A contest of technology networks","purpose":"process-evidence","sources":["ap"],"covers":["intro"],"blocks":[{"text":"US-led partnerships promise access to advanced chips, investment, and trusted supply chains."},{"text":"China-led alternatives compete on cost, openness, and access to a different technology ecosystem."},{"text":"Some countries try to work with both. The Philippines should protect room to maneuver."}]},
+    {"id":"guardrails","title":"Make the promise measurable","purpose":"comparison-evaluation","sources":["iseas"],"covers":["intro"],"blocks":[{"text":"Publish land, lease, and governance terms before major commitments."},{"text":"Disclose independent water, energy, and environmental assessments; consult affected communities."},{"text":"Track local value added, skilled jobs, technology transfer, and compliance in public."}]}
+  ]
+}

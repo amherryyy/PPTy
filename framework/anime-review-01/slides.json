@@ -1,0 +1,62 @@
+[
+  {
+    "number": 1,
+    "file": "01-intro.html",
+    "title": "Duno: Project Introduction",
+    "source": "intro"
+  },
+  {
+    "number": 2,
+    "file": "02-problem.html",
+    "title": "The Study Management Problem",
+    "source": "intro"
+  },
+  {
+    "number": 3,
+    "file": "03-objectives.html",
+    "title": "Objectives and Intended Users",
+    "source": "objectives"
+  },
+  {
+    "number": 4,
+    "file": "04-workflow.html",
+    "title": "The Duno Study Workflow",
+    "source": "features"
+  },
+  {
+    "number": 5,
+    "file": "05-access.html",
+    "title": "Users, Access, and Scope",
+    "source": "scope"
+  },
+  {
+    "number": 6,
+    "file": "06-design.html",
+    "title": "Technology and System Design",
+    "source": "technology"
+  },
+  {
+    "number": 7,
+    "file": "07-method.html",
+    "title": "Development and Evaluation Method",
+    "source": "method"
+  },
+  {
+    "number": 8,
+    "file": "08-requirements.html",
+    "title": "Requirements and Developed System",
+    "source": "requirements, features"
+  },
+  {
+    "number": 9,
+    "file": "09-findings.html",
+    "title": "Testing and Evaluation Findings",
+    "source": "tests, evaluations"
+  },
+  {
+    "number": 10,
+    "file": "10-conclusion.html",
+    "title": "Conclusion and Recommendations",
+    "source": "conclusion"
+  }
+]

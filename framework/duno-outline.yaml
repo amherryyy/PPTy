@@ -1,0 +1,87 @@
+﻿title: Duno validation presentation
+sources:
+  - id: duno-document
+    location: Duno section 1-6.docx
+    priority: 1
+outline:
+  - { id: intro, description: Project identity and purpose }
+  - { id: problem, description: Study management challenges }
+  - { id: objectives, description: Objectives and intended users }
+  - { id: workflow, description: Duno study workflow }
+  - { id: access, description: User roles and scope }
+  - { id: design, description: Technology and system design }
+  - { id: method, description: Development and evaluation method }
+  - { id: requirements, description: Requirements and developed system }
+  - { id: findings, description: Testing and evaluation findings }
+  - { id: conclusion, description: Conclusions and recommendations }
+slides:
+  - id: intro
+    title: 'Duno: Project Introduction'
+    purpose: opening-context
+    sources: [duno-document]
+    covers: [intro]
+    blocks:
+      - text: Project identity and purpose as a mobile-first study management application.
+  - id: problem
+    title: The Study Management Problem
+    purpose: key-statement
+    sources: [duno-document]
+    covers: [problem]
+    blocks:
+      - text: Challenges in organizing academic work, prioritizing topics, allocating time, and reviewing study activity.
+  - id: objectives
+    title: Objectives and Intended Users
+    purpose: structured-explanation
+    sources: [duno-document]
+    covers: [objectives]
+    blocks:
+      - text: General objective, three specific objectives, and college students as primary users.
+  - id: workflow
+    title: The Duno Study Workflow
+    purpose: process-evidence
+    sources: [duno-document]
+    covers: [workflow]
+    blocks:
+      - text: Subjects and topics, Focus, Plan, StudyGuide, Timer, and Aralytics; prioritization is rule-based and analytics are descriptive.
+  - id: access
+    title: Users, Access, and Scope
+    purpose: comparison-evaluation
+    sources: [duno-document]
+    covers: [access]
+    blocks:
+      - text: Guest, student, and administrator roles; account boundaries; public offline resources and connectivity requirements.
+  - id: design
+    title: Technology and System Design
+    purpose: structured-explanation
+    sources: [duno-document]
+    covers: [design]
+    blocks:
+      - text: Browser interface, CodeIgniter application, relational data, authentication, and documented core database design.
+  - id: method
+    title: Development and Evaluation Method
+    purpose: process-evidence
+    sources: [duno-document]
+    covers: [method]
+    blocks:
+      - text: Requirements gathering, iterative development, system testing, and separate student and IT professional evaluations.
+  - id: requirements
+    title: Requirements and Developed System
+    purpose: comparison-evaluation
+    sources: [duno-document]
+    covers: [requirements]
+    blocks:
+      - text: Documented student requirements and their connection to the implemented study workflow.
+  - id: findings
+    title: Testing and Evaluation Findings
+    purpose: process-evidence
+    sources: [duno-document]
+    covers: [findings]
+    blocks:
+      - text: Selected verified testing and evaluation findings, with sample sizes, limitations, and perceptions identified.
+  - id: conclusion
+    title: Conclusion and Recommendations
+    purpose: synthesis-conclusion
+    sources: [duno-document]
+    covers: [conclusion]
+    blocks:
+      - text: Documented accomplishments, limitations, and prioritized future verification and improvements.

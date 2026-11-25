@@ -1,0 +1,111 @@
+﻿title: 'Duno: A Personalized Study Planning, Tracking, and Academic Analytics Application'
+sources:
+  - { id: intro, location: 'Duno section 1-6.docx, Introduction: Background and Problem Statement', priority: 1 }
+  - { id: objectives, location: 'Duno section 1-6.docx, Project Objectives', priority: 1 }
+  - { id: features, location: 'Duno section 1-6.docx, System Features: Major Functions', priority: 1 }
+  - { id: scope, location: 'Duno section 1-6.docx, System Features: User Capabilities and Scope and Limitations', priority: 1 }
+  - { id: technology, location: 'Duno section 1-6.docx, Technologies to Be Used; Methodology: System Design', priority: 1 }
+  - { id: method, location: 'Duno section 1-6.docx, Methodology: Requirements Assessment and System Evaluation Procedure', priority: 1 }
+  - { id: requirements, location: 'Duno section 1-6.docx, Results: Student Requirements Assessment, Tables 6–8', priority: 1 }
+  - { id: tests, location: 'Duno section 1-6.docx, Results: System Testing, Tables 9–10', priority: 1 }
+  - { id: evaluations, location: 'Duno section 1-6.docx, Results: Student and IT Professional Evaluations, Tables 11–12', priority: 1 }
+  - { id: conclusion, location: 'Duno section 1-6.docx, Conclusion and Recommendations', priority: 1 }
+outline:
+  - { id: intro, description: Project identity and purpose }
+  - { id: problem, description: Study management challenges }
+  - { id: objectives, description: Objectives and intended users }
+  - { id: workflow, description: Duno study workflow }
+  - { id: access, description: User roles and scope }
+  - { id: design, description: Technology and system design }
+  - { id: method, description: Development and evaluation method }
+  - { id: requirements, description: Requirements and developed system }
+  - { id: findings, description: Testing and evaluation findings }
+  - { id: conclusion, description: Conclusions and recommendations }
+slides:
+  - id: intro
+    title: 'Duno: Project Introduction'
+    purpose: opening-context
+    sources: [intro]
+    covers: [intro]
+    blocks:
+      - text: A mobile-first web application for study planning, tracking, and descriptive academic analytics.
+  - id: problem
+    title: The Study Management Problem
+    purpose: key-statement
+    sources: [intro]
+    covers: [problem]
+    blocks:
+      - text: Students must organize subjects and deadlines, decide what to prioritize, allocate study time, and review completed activity.
+  - id: objectives
+    title: Objectives and Intended Users
+    purpose: structured-explanation
+    sources: [objectives]
+    covers: [objectives]
+    blocks:
+      - text: Assess student planning and study-management needs.
+      - text: Develop an integrated, responsive application for college students.
+      - text: Test requirements and evaluate four selected software quality characteristics.
+  - id: workflow
+    title: The Duno Study Workflow
+    purpose: process-evidence
+    sources: [features]
+    covers: [workflow]
+    blocks:
+      - text: Organize subjects and topics; use rule-based Focus to prioritize unfinished topics.
+      - text: Adjust a daily plan, consult curated StudyGuide techniques, and save sessions with Timer.
+      - text: Review descriptive records and printable reports in Aralytics.
+  - id: access
+    title: Users, Access, and Scope
+    purpose: comparison-evaluation
+    sources: [scope]
+    covers: [access]
+    blocks:
+      - text: Guests access public information and account entry; students manage their own academic records.
+      - text: Administrators view aggregate statistics without access to individual private academic records.
+      - text: Authenticated operations require internet access; offline support is limited to selected public resources.
+  - id: design
+    title: Technology and System Design
+    purpose: structured-explanation
+    sources: [technology]
+    covers: [design]
+    blocks:
+      - text: A browser interface connects to a PHP and CodeIgniter application with relational storage in MySQL or MariaDB.
+      - text: CodeIgniter Shield supports authentication and session management; application authorization limits access.
+  - id: method
+    title: Development and Evaluation Method
+    purpose: process-evidence
+    sources: [method]
+    covers: [method]
+    blocks:
+      - text: Requirements assessment used 38 eligible responses gathered through convenience sampling; findings describe participants rather than all college students.
+        highRisk: true
+        sources: [method]
+      - text: Iterative development was followed by local testing and separate student and IT professional evaluations.
+  - id: requirements
+    title: Requirements and Developed System
+    purpose: comparison-evaluation
+    sources: [requirements, features]
+    covers: [requirements]
+    blocks:
+      - text: The assessment identified planning and prioritization needs; Focus and Plan support prioritization and adjustable schedules.
+      - text: Timer records sessions, while Aralytics summarizes recorded study activity.
+  - id: findings
+    title: Testing and Evaluation Findings
+    purpose: process-evidence
+    sources: [tests, evaluations]
+    covers: [findings]
+    blocks:
+      - text: The local PHPUnit suite recorded 123 passing tests and 1,393 assertions; its 95 CodeIgniter feature tests are a subset, not additional unique tests.
+        highRisk: true
+        sources: [tests]
+      - text: Separate evaluations involved 20 students and three IT professionals; the ratings represent respondent perceptions.
+        highRisk: true
+        sources: [evaluations]
+  - id: conclusion
+    title: Conclusion and Recommendations
+    purpose: synthesis-conclusion
+    sources: [conclusion]
+    covers: [conclusion]
+    blocks:
+      - text: Duno integrates planning, session tracking, and review of recorded activities in one application.
+      - text: Further verification, security assessment, broader evaluation, and usability refinement are recommended.

@@ -1,0 +1,234 @@
+[
+  {
+    "number": 1,
+    "title": "Duno: A Personalized Study Planning, Tracking, and Academic Analytics Application",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "outsideText": [],
+    "images": [
+      {
+        "src": "../../assets/branding/duno-official-logo.png",
+        "loaded": true,
+        "width": 1774,
+        "height": 887
+      },
+      {
+        "src": "../assets/source-media/image8.png",
+        "loaded": true,
+        "width": 323,
+        "height": 709
+      }
+    ]
+  },
+  {
+    "number": 2,
+    "title": "The study challenge",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "outsideText": [],
+    "images": []
+  },
+  {
+    "number": 3,
+    "title": "Who Duno is designed to support",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "outsideText": [],
+    "images": []
+  },
+  {
+    "number": 4,
+    "title": "From student needs to evaluated system",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "outsideText": [],
+    "images": []
+  },
+  {
+    "number": 5,
+    "title": "A connected study toolkit",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "outsideText": [],
+    "images": [
+      {
+        "src": "../assets/source-media/image12.png",
+        "loaded": true,
+        "width": 356,
+        "height": 761
+      }
+    ]
+  },
+  {
+    "number": 6,
+    "title": "Access by role, with a defined scope",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "outsideText": [],
+    "images": []
+  },
+  {
+    "number": 7,
+    "title": "Tools and technologies behind Duno",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "outsideText": [],
+    "images": []
+  },
+  {
+    "number": 8,
+    "title": "Iterative development guided by Agile",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "outsideText": [],
+    "images": []
+  },
+  {
+    "number": 9,
+    "title": "How requirements and system evidence were gathered",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "outsideText": [],
+    "images": []
+  },
+  {
+    "number": 10,
+    "title": "A layered web application and its core data",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "outsideText": [],
+    "images": []
+  },
+  {
+    "number": 11,
+    "title": "Student needs shaped the requirements",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "outsideText": [],
+    "images": []
+  },
+  {
+    "number": 12,
+    "title": "The developed Duno study workflow",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "outsideText": [],
+    "images": [
+      {
+        "src": "../assets/source-media/image12.png",
+        "loaded": true,
+        "width": 356,
+        "height": 761
+      },
+      {
+        "src": "../assets/source-media/image13.png",
+        "loaded": true,
+        "width": 350,
+        "height": 753
+      },
+      {
+        "src": "../assets/source-media/image15.png",
+        "loaded": true,
+        "width": 330,
+        "height": 738
+      },
+      {
+        "src": "../assets/source-media/image16.png",
+        "loaded": true,
+        "width": 332,
+        "height": 746
+      }
+    ]
+  },
+  {
+    "number": 13,
+    "title": "Testing evidence across automated and manual checks",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "outsideText": [],
+    "images": []
+  },
+  {
+    "number": 14,
+    "title": "Student evaluation: favorable perceptions",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "outsideText": [],
+    "images": []
+  },
+  {
+    "number": 15,
+    "title": "IT professional evaluation",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "outsideText": [],
+    "images": []
+  },
+  {
+    "number": 16,
+    "title": "What the evidence says about each objective",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "outsideText": [],
+    "images": []
+  },
+  {
+    "number": 17,
+    "title": "A completed project, with clear lessons",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "outsideText": [],
+    "images": []
+  },
+  {
+    "number": 18,
+    "title": "What comes next",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "outsideText": [],
+    "images": [
+      {
+        "src": "../../assets/branding/duno-official-logo.png",
+        "loaded": true,
+        "width": 1774,
+        "height": 887
+      }
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title desc">
+  <title id="title">Form &amp; Signal mark</title>
+  <desc id="desc">An open page frame crossed by a rising signal line ending at a coral point.</desc>
+  <path d="M27 16h50l16 16v67H27z" fill="#F5F0E6" stroke="#101826" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M77 16v17h16" fill="none" stroke="#101826" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M39 75h15l10-19 11 26 9-14h10" fill="none" stroke="#5478EB" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="96" cy="68" r="8" fill="#F36F4C"/>
+  <path d="M15 105h44" stroke="#C8F36A" stroke-width="7" stroke-linecap="round"/>
+</svg>

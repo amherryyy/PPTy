@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=1920, initial-scale=1">
+  <title>Duno | Relational Database Design</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="slide" aria-label="Slide 09, Relational Database Design">
+    <header class="slide-header">
+      <div class="slide-number">09</div>
+      <h1 class="slide-heading">Relational Database Design</h1>
+    </header>
+    <p class="slide-deck">18-table relational design, with six core study-flow tables shown below</p>
+    <section class="erd-grid" aria-label="Six-table entity relationship diagram">
+      <article class="entity">
+        <header class="entity-head"><h2>users</h2><span class="entity-kind">Identity</span></header>
+        <div class="entity-body"><div class="field"><code>id <span class="key">PK</span></code><span class="type">int</span></div></div>
+      </article>
+      <article class="entity">
+        <header class="entity-head"><h2>subjects</h2><span class="entity-kind">Study area</span></header>
+        <div class="entity-body">
+          <div class="field"><code>id <span class="key">PK</span></code><span class="type">int</span></div>
+          <div class="field"><code>user_id <span class="key">FK</span></code><span class="type">int</span></div>
+          <div class="field"><code>name</code><span class="type">varchar</span></div>
+          <div class="field"><code>program_id</code><span class="type">varchar · nullable</span></div>
+        </div>
+      </article>
+      <article class="entity">
+        <header class="entity-head"><h2>topics</h2><span class="entity-kind">Study content</span></header>
+        <div class="entity-body">
+          <div class="field"><code>id <span class="key">PK</span></code><span class="type">int</span></div>
+          <div class="field"><code>user_id <span class="key">FK</span></code><span class="type">int</span></div>
+          <div class="field"><code>subject_id <span class="key">FK</span></code><span class="type">int</span></div>
+          <div class="field"><code>title</code><span class="type">varchar</span></div>
+          <div class="field"><code>due_date</code><span class="type">date · nullable</span></div>
+          <div class="field"><code>importance</code><span class="type">varchar</span></div>
+          <div class="field"><code>difficulty</code><span class="type">varchar</span></div>
+          <div class="field"><code>progress</code><span class="type">varchar</span></div>
+        </div>
+      </article>
+      <article class="entity">
+        <header class="entity-head"><h2>study_plans</h2><span class="entity-kind">Schedule</span></header>
+        <div class="entity-body">
+          <div class="field"><code>id <span class="key">PK</span></code><span class="type">int</span></div>
+          <div class="field"><code>user_id <span class="key">FK</span></code><span class="type">int</span></div>
+          <div class="field"><code>plan_date</code><span class="type">date</span></div>
+          <div class="field"><code>available_minutes</code><span class="type">smallint</span></div>
+        </div>
+      </article>
+      <article class="entity">
+        <header class="entity-head"><h2>study_plan_items</h2><span class="entity-kind">Plan detail</span></header>
+        <div class="entity-body">
+          <div class="field"><code>id <span class="key">PK</span></code><span class="type">int</span></div>
+          <div class="field"><code>user_id <span class="key">FK</span></code><span class="type">int</span></div>
+          <div class="field"><code>plan_id <span class="key">FK</span></code><span class="type">int</span></div>
+          <div class="field"><code>topic_id <span class="key">FK</span></code><span class="type">int · nullable</span></div>
+          <div class="field"><code>topic_title_snapshot</code><span class="type">varchar</span></div>
+          <div class="field"><code>subject_name_snapshot</code><span class="type">varchar</span></div>
+          <div class="field"><code>duration_minutes</code><span class="type">smallint</span></div>
+          <div class="field"><code>start_time</code><span class="type">time · nullable</span></div>
+          <div class="field"><code>position</code><span class="type">smallint</span></div>
+        </div>
+      </article>
+      <article class="entity">
+        <header class="entity-head"><h2>study_sessions</h2><span class="entity-kind">Study history</span></header>
+        <div class="entity-body">
+          <div class="field"><code>id <span class="key">PK</span></code><span class="type">int</span></div>
+          <div class="field"><code>user_id <span class="key">FK</span></code><span class="type">int</span></div>
+          <div class="field"><code>subject_id <span class="key">FK</span></code><span class="type">int</span></div>
+          <div class="field"><code>topic_id <span class="key">FK</span></code><span class="type">int · nullable</span></div>
+          <div class="field"><code>duration_minutes</code><span class="type">smallint</span></div>
+          <div class="field"><code>completed_at</code><span class="type">datetime</span></div>
+        </div>
+      </article>
+    </section>
+    <aside class="relation-band" aria-label="Relationship cardinality and foreign key constraints">
+      <h2 class="relation-title">Core relationships and cardinality</h2>
+      <div class="relations">
+        <div class="relation"><strong>users</strong><span class="relationship"><i></i><b>1:N</b><i></i></span><strong>subjects</strong><small>user_id</small></div>
+        <div class="relation"><strong>subjects</strong><span class="relationship"><i></i><b>1:N</b><i></i></span><strong>topics</strong><small>composite owner reference</small></div>
+        <div class="relation"><strong>users</strong><span class="relationship"><i></i><b>1:N</b><i></i></span><strong>study_plans</strong><small>user_id</small></div>
+        <div class="relation"><strong>study_plans</strong><span class="relationship"><i></i><b>1:N</b><i></i></span><strong>study_plan_items</strong><small>composite owner reference</small></div>
+        <div class="relation"><strong>topics</strong><span class="relationship"><i></i><b>1:N</b><i></i></span><strong>study_plan_items</strong><small>item topic_id is 0..1, nullable</small></div>
+        <div class="relation"><strong>users</strong><span class="relationship"><i></i><b>1:N</b><i></i></span><strong>study_sessions</strong><small>user_id</small></div>
+        <div class="relation"><strong>subjects</strong><span class="relationship"><i></i><b>1:N</b><i></i></span><strong>study_sessions</strong><small>composite owner reference</small></div>
+        <div class="relation"><strong>topics</strong><span class="relationship"><i></i><b>1:N</b><i></i></span><strong>study_sessions</strong><small>session topic_id 0..1, nullable</small></div>
+      </div>
+      <p class="composite-note"><strong>Composite ownership:</strong> topics (user_id, subject_id) references subjects (user_id, id). Plan items use (user_id, plan_id) for the owning plan and optional (user_id, topic_id) for the topic. Sessions use (user_id, subject_id) for subject ownership and optional (topic_id, subject_id) to keep the topic aligned with its subject.</p>
+    </aside>
+    <div class="erd-note">Six core tables from the 18-table design; supporting areas include authentication, check-ins, and progression</div>
+  </main>
+</body>
+</html>

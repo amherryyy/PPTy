@@ -1,0 +1,1 @@
+﻿Screenshots are intentionally empty because no verified app captures were available. Use the capture checklist and sanitized synthetic data in `../screenshot-manifest.md`. Do not put mockups or generated illustrations in this folder as evidence.

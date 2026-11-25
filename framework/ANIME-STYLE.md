@@ -1,0 +1,5 @@
+﻿# Anime-inspired visual direction
+
+Original anime-inspired cel-shaded illustration created with the built-in image generation tool. Prompt: "Original anime-inspired presentation illustration, transparent cutout: a cheerful young adult student with short dark hair, purple jacket, holding a notebook and looking determined, accompanied by a small original friendly golden lightbulb mascot wearing a simple wide-brim study hat. Dynamic clean cel shading, graphic silhouette, lavender and golden palette, full figures with breathing room, no text, no background, no existing copyrighted characters or logos. Intended as a right-side cover illustration for a student study-planning presentation."
+
+The illustration is conceptual and is not an official Duno screenshot or logo. `render-anime.cjs` uses the shared composition functions and `anime.css` to render the same validated content into a fresh folder. Example: `node framework/render-anime.cjs framework/duno-content.yaml framework/anime-review-01`. Output is image-based; the original HTML remains editable. Review sources, readability and layout before presentation.

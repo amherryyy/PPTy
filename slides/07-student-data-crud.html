@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=1920, initial-scale=1"><title>Duno | Student Data CRUD</title><link rel="stylesheet" href="styles.css"></head>
+<body><main class="slide info-slide" aria-label="Slide 07, Student Data CRUD">
+  <header class="slide-header"><div class="slide-number">07</div><h1 class="slide-heading">Student Data CRUD</h1></header>
+  <p class="slide-deck">The academic records at the heart of the approved student workflow</p>
+  <section class="info-content">
+    <div class="crud-layout">
+      <article class="panel crud-card"><div class="crud-head"><h2>Subjects</h2><span class="status-chip mint">Student workspace</span></div><div class="crud-ops"><span>Create</span><span>View</span><span>Edit</span><span>Delete</span></div><p class="body-copy" style="font-size:20px">Students organize subjects and academic programs in one personal workspace.</p><div class="field-list"><span class="field-pill">id</span><span class="field-pill">user_id</span><span class="field-pill">name</span><span class="field-pill">program_id, nullable</span></div></article>
+      <article class="panel panel-mint crud-card"><div class="crud-head"><h2>Topics</h2><span class="status-chip mint">Student workspace</span></div><div class="crud-ops"><span>Create</span><span>View</span><span>Edit</span><span>Delete</span></div><p class="body-copy" style="font-size:20px">Topics capture due dates, difficulty, importance, and progress for Focus and Plan.</p><div class="field-list"><span class="field-pill">title</span><span class="field-pill">due_date, nullable</span><span class="field-pill">importance</span><span class="field-pill">difficulty</span><span class="field-pill">progress</span></div></article>
+    </div>
+    <div class="panel crud-bottom"><p><strong>Shared rules:</strong> derive the owner from the session, validate on the server, escape output, protect writes with CSRF, and reject foreign references.</p></div>
+  </section>
+</main></body></html>

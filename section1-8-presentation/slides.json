@@ -1,0 +1,110 @@
+[
+  {
+    "number": 1,
+    "file": "01-title-page.html",
+    "title": "Duno: A Personalized Study Planning, Tracking, and Academic Analytics Application",
+    "source": "Duno Technical Documentation, Sections 1–6"
+  },
+  {
+    "number": 2,
+    "file": "02-introduction-problem.html",
+    "title": "The study challenge",
+    "source": "Duno Technical Documentation, Section 1; Aeon et al. (2021); Ifenthaler & Yau (2020); McDermott (2021)"
+  },
+  {
+    "number": 3,
+    "file": "03-project-significance.html",
+    "title": "Who Duno is designed to support",
+    "source": "Duno Technical Documentation, Section 1"
+  },
+  {
+    "number": 4,
+    "file": "04-project-objectives.html",
+    "title": "From student needs to evaluated system",
+    "source": "Duno Technical Documentation, Section 1, Objectives"
+  },
+  {
+    "number": 5,
+    "file": "05-system-features.html",
+    "title": "A connected study toolkit",
+    "source": "Duno Technical Documentation, Section 2 and Table 8"
+  },
+  {
+    "number": 6,
+    "file": "06-user-capabilities.html",
+    "title": "Access by role, with a defined scope",
+    "source": "Duno Technical Documentation, Sections 2–3"
+  },
+  {
+    "number": 7,
+    "file": "07-technologies-used.html",
+    "title": "Tools and technologies behind Duno",
+    "source": "Duno Technical Documentation, Section 2"
+  },
+  {
+    "number": 8,
+    "file": "08-methodology-development.html",
+    "title": "Iterative development guided by Agile",
+    "source": "Duno Technical Documentation, Section 2"
+  },
+  {
+    "number": 9,
+    "file": "09-methodology-data-testing.html",
+    "title": "How requirements and system evidence were gathered",
+    "source": "Duno Technical Documentation, Sections 2, 3, and 5"
+  },
+  {
+    "number": 10,
+    "file": "10-methodology-system-design.html",
+    "title": "A layered web application and its core data",
+    "source": "Duno Technical Documentation, Figure 3 and Figure 4"
+  },
+  {
+    "number": 11,
+    "file": "11-results-student-requirements.html",
+    "title": "Student needs shaped the requirements",
+    "source": "Duno Technical Documentation, Tables 6–7"
+  },
+  {
+    "number": 12,
+    "file": "12-results-developed-system.html",
+    "title": "The developed Duno study workflow",
+    "source": "Duno Technical Documentation, Table 8 and Figure 6e–6j"
+  },
+  {
+    "number": 13,
+    "file": "13-results-system-testing.html",
+    "title": "Testing evidence across automated and manual checks",
+    "source": "Duno Technical Documentation, Tables 9–10"
+  },
+  {
+    "number": 14,
+    "file": "14-results-student-evaluation.html",
+    "title": "Student evaluation: favorable perceptions",
+    "source": "Duno Technical Documentation, Table 11"
+  },
+  {
+    "number": 15,
+    "file": "15-results-it-evaluation.html",
+    "title": "IT professional evaluation",
+    "source": "Duno Technical Documentation, Table 12"
+  },
+  {
+    "number": 16,
+    "file": "16-results-overall-discussion.html",
+    "title": "What the evidence says about each objective",
+    "source": "Duno Technical Documentation, Sections 3 and 5"
+  },
+  {
+    "number": 17,
+    "file": "17-conclusion-accomplishments.html",
+    "title": "A completed project, with clear lessons",
+    "source": "Duno Technical Documentation, Sections 5–6"
+  },
+  {
+    "number": 18,
+    "file": "18-recommendations-closing.html",
+    "title": "What comes next",
+    "source": "Duno Technical Documentation, Section 6"
+  }
+]

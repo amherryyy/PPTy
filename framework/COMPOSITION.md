@@ -1,0 +1,7 @@
+# Shared slide composition
+
+`composition.cjs` exposes `title`, `blocks`, and `compose` functions. The canonical model keeps content and sources separate from composition. `compose` maps each approved semantic purpose (or manual `layout` override) to a layout on the 1920 x 1080 logical canvas.
+
+`composition.css` holds the base visual treatment. `layout-fit.css` adds content-first primitives for automatic-height stacks, grids, and panels. Text determines the panel height; grid columns use `minmax(0, 1fr)`; and decorative clipping belongs on a pseudo-element behind the text. See `framework/LAYOUT-CONTRACTS.md` for the contract and sample markup.
+
+Render a new review folder with `node framework/render-composed.cjs framework/duno-content.yaml framework/composed-review`. The renderer writes HTML, both CSS files, source image, 4K PNGs and a slide manifest. It rejects an existing output folder and runs the read-only layout checker before each PNG capture. It blocks text below 24 CSS px, canvas escape, and measured overflow in clipped shapes. Geometric overlap warnings still need visual review. It does not verify facts or guarantee visual quality. The abstract glass image is a raster illustration, not an editable 3D object. No recurring header or footer is added.

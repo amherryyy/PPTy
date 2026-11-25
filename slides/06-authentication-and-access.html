@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=1920, initial-scale=1"><title>Duno | Authentication and Access</title><link rel="stylesheet" href="styles.css"></head>
+<body><main class="slide info-slide" aria-label="Slide 06, Authentication and Access">
+  <header class="slide-header"><div class="slide-number">06</div><h1 class="slide-heading">Authentication and Access</h1></header>
+  <p class="slide-deck">Personal accounts connect students and administrators to their workspaces</p>
+  <section class="info-content auth-layout">
+    <article class="panel auth-flow"><h2>Account and session flow</h2>
+      <div class="auth-steps">
+        <div class="auth-step"><span class="status-chip">Public</span><strong>Register</strong><span>Account creation leads to a personal student workspace.</span></div>
+        <div class="auth-step"><span class="status-chip mint">Verify</span><strong>Email code</strong><span>Activation flow is handled by Shield-compatible application routes.</span></div>
+        <div class="auth-step"><span class="status-chip">Session</span><strong>Sign in</strong><span>Sign-in opens protected student or administrator routes.</span></div>
+      </div>
+      <div class="role-branches"><div class="role-branch"><h3>Student routes</h3><p>Student role plus owner-scoped record queries.</p></div><div class="role-branch admin"><h3>Admin routes</h3><p>Authorized access to general application statistics.</p></div></div>
+    </article>
+    <article class="panel security-list"><div class="eyebrow">Application controls</div><div class="security-item"><b>✓</b><span>Passwords and sessions use CodeIgniter Shield.</span></div><div class="security-item"><b>✓</b><span>State-changing forms use CSRF protection and server validation.</span></div><div class="security-item"><b>✓</b><span>Routes enforce roles on the server, not only by hiding navigation links.</span></div><div class="security-item"><b>✓</b><span>Student reads and writes use the authenticated owner scope.</span></div></article>
+  </section>
+</main></body></html>

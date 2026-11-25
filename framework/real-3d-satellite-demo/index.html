@@ -1,0 +1,167 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Inside a Small Satellite — 3D Slide Study</title>
+<style>
+:root {
+  --ink: #f4f2ed;
+  --muted: #b7bfd1;
+  --night: #070c1b;
+  --blue: #4d8fff;
+  --amber: #ffb34d;
+}
+* { box-sizing: border-box; }
+html, body { width: 1920px; height: 1080px; margin: 0; overflow: hidden; }
+body { font-family: Arial, Helvetica, sans-serif; background: var(--night); color: var(--ink); }
+.slide {
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+  overflow: hidden;
+  isolation: isolate;
+  background:
+    radial-gradient(ellipse at 78% 49%, rgba(29, 75, 149, .27), transparent 39%),
+    radial-gradient(ellipse at 12% 94%, rgba(177, 90, 36, .16), transparent 36%),
+    linear-gradient(112deg, #080d1d 0%, #0b1226 58%, #101a32 100%);
+}
+.slide::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: .25;
+  background-image: radial-gradient(rgba(185, 204, 244, .52) .8px, transparent .8px);
+  background-size: 39px 39px;
+  mask-image: linear-gradient(90deg, transparent 0%, #000 47%, #000 100%);
+  z-index: -1;
+}
+.orbit {
+  position: absolute;
+  width: 1420px;
+  height: 710px;
+  right: -110px;
+  top: 165px;
+  border: 1px solid rgba(109, 158, 255, .19);
+  border-radius: 50%;
+  transform: rotate(-17deg);
+}
+.orbit::after {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  right: 18%;
+  top: 4%;
+  background: var(--amber);
+  box-shadow: 0 0 18px rgba(255, 179, 77, .9);
+}
+.copy {
+  position: absolute;
+  z-index: 3;
+  left: 112px;
+  top: 255px;
+  width: 575px;
+}
+.kicker {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 32px;
+  color: var(--amber);
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: .19em;
+  text-transform: uppercase;
+}
+.kicker::before { content: ""; display: block; width: 34px; height: 2px; background: var(--amber); }
+h1 {
+  margin: 0;
+  max-width: 590px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 94px;
+  line-height: .94;
+  font-weight: 500;
+  letter-spacing: -.055em;
+}
+h1 em { color: #ffb24c; font-style: normal; }
+.subtitle {
+  margin: 32px 0 0;
+  max-width: 490px;
+  color: #c5ccda;
+  font-size: 27px;
+  line-height: 1.42;
+  font-weight: 400;
+}
+.caption {
+  margin-top: 48px;
+  color: #7f91b3;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+}
+.art {
+  position: absolute;
+  z-index: 1;
+  right: -80px;
+  top: 15px;
+  width: 1530px;
+  height: 1010px;
+  object-fit: contain;
+  filter: drop-shadow(0 34px 32px rgba(0, 0, 0, .34));
+}
+.annotations { position: absolute; inset: 0; z-index: 2; pointer-events: none; }
+.annotations path {
+  fill: none;
+  stroke: rgba(228, 235, 248, .78);
+  stroke-width: 2;
+}
+.annotations circle { fill: #ffb34d; stroke: #121b31; stroke-width: 4; }
+.callout {
+  position: absolute;
+  z-index: 4;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #f2f3f6;
+  font-size: 16px;
+  line-height: 1.15;
+  font-weight: 700;
+  letter-spacing: .105em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.callout::before { content: ""; width: 7px; height: 7px; background: var(--amber); border-radius: 50%; }
+.optics { left: 735px; top: 796px; }
+.bus { left: 1305px; top: 830px; }
+.array { right: 95px; top: 438px; }
+</style>
+</head>
+<body>
+<main class="slide">
+  <div class="orbit" aria-hidden="true"></div>
+  <section class="copy">
+    <div class="kicker critical">Original Blender model</div>
+    <h1 class="critical">Inside a<br><em>small satellite</em></h1>
+    <p class="subtitle critical">Concept model: a small spacecraft built to observe Earth.</p>
+    <p class="caption critical">Optics · avionics · power</p>
+  </section>
+  <img class="art" src="./satellite.png" alt="Original Blender-rendered conceptual satellite with exposed avionics, telescope, dish antenna, and solar wings">
+  <svg class="annotations" viewBox="0 0 1920 1080" aria-hidden="true">
+    <path d="M 985 625 L 900 750 L 770 804"></path>
+    <circle cx="985" cy="625" r="6"></circle>
+    <path d="M 1325 655 L 1340 770 L 1330 837"></path>
+    <circle cx="1325" cy="655" r="6"></circle>
+    <path d="M 1540 600 L 1665 505 L 1770 458"></path>
+    <circle cx="1540" cy="600" r="6"></circle>
+  </svg>
+  <div class="callout optics critical">Optical payload</div>
+  <div class="callout bus critical">Spacecraft bus</div>
+  <div class="callout array critical">Solar wing</div>
+</main>
+</body>
+</html>
+
+
